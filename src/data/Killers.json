@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The Huntress",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+    {
+    "id": 2,
+    "title": "The Nurse",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+   {
+    "id": 3,
+    "title": "The Demorgorgon",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+    {
+    "id": 4,
+    "title": "The Wraith",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+   {
+    "id": 5,
+    "title": "The Blight",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+    {
+    "id": 6,
+    "title": "The Plague",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+   {
+    "id": 7,
+    "title": "The Dredge",
+   "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+   {
+    "id": 8,
+    "title": "The Unknown",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+    {
+    "id": 9,
+    "title": "The Oni",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  },
+    {
+    "id": 10,
+    "title": "The Hillbilly",
+    "description": "",
+    "image": "#",
+    "image-perk1":"",
+    "name-perk1":"",
+    "image-perk2":"",
+    "name-perk2":"",
+    "image-perk3":"",
+    "name-perk3":""
+  }
+]
