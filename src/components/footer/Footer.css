@@ -1,0 +1,18 @@
+.main-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.main-footer a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 20px;
+}
