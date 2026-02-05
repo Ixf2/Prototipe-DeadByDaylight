@@ -5,12 +5,14 @@ function Footer() {
     <footer className="main-footer">
 
       <p>
-        © 2026 MyApp. All rights reserved.
-        Privacy Policy | Cookies | Terms
+        © 2026 Prototipe Dead by Dayligth. All rights reserved.
+        <a href="/privacy">Privacy Policy</a> |
+        <a href="/cookies">Cookies</a> |
+        <a href="/terms">Terms</a>
       </p>
 
       <div className="social-icons">
-        <a href="https://github.com/tuusuario">GitHub</a>
+        <a href='https://github.com/Ixf2'>GitHub</a>
         <a href="https://twitter.com">Twitter</a>
         <a href="https://instagram.com">Instagram</a>
       </div>

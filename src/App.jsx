@@ -9,7 +9,6 @@ import Survivors from "./pages/survivors/Survivors.jsx";
 function App() {
   return (
     <>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />
@@ -17,7 +16,6 @@ function App() {
         <Route path="/killers" element={<Killers />} />
         <Route path="/survivors" element={<Survivors />} />
       </Routes>
-      <Footer />
     </>
   );
 }
