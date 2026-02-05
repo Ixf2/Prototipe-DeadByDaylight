@@ -16,7 +16,9 @@ export const Home = () => {
             <h2>Nuevo DLC Disponible</h2>
             <div className='text-article-new'>
               <img src="https://assets.deadbydaylight.com/DBD_STORE_DLCCOLLECTION_CATALOGUE_SCREENSHOTS_DUSTIN_VF_01_f275f1e56e.jpg" alt="news1-DLC" className='imagen-dlc' />
-
+                <div className='text-article'>
+                    <h2>STRANGER THINGS CHAPTER 2 COLLECTION</h2>
+                </div>
             </div>
 
           </div>
