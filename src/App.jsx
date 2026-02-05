@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Killers from "./pages/killers/Killers";
-import Survivors from "./pages/survivors/Survivors";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Home from "./pages/home/Home.jsx";
+import Killers from "./pages/killers/Killers.jsx";
+import Survivors from "./pages/survivors/Survivors.jsx";
+
 
 function App() {
   return (
     <>
-    <BrowserRouter>
       <Header />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />
@@ -17,9 +17,7 @@ function App() {
         <Route path="/killers" element={<Killers />} />
         <Route path="/survivors" element={<Survivors />} />
       </Routes>
-
       <Footer />
-    </BrowserRouter>
     </>
   );
 }

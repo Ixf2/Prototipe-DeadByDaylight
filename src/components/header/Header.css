@@ -1,0 +1,27 @@
+/* Contenedor principal */
+#header-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #1b1b1b;
+  border-bottom: 2px solid #e50914; /* rojo DBD */
+}
+
+/* Cada sección */
+#header-box > div {
+  padding: 10px 20px;
+}
+
+/* Links */
+#header-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* Hover */
+#header-box a:hover {
+  color: #e50914;
+}

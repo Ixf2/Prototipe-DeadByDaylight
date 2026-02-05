@@ -1,42 +1,113 @@
+/* Container main */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #121212; 
+  color: #f5f5f5; 
+  font-family: 'Arial Black', Arial, sans-serif;
 }
 
+/* Header / Links */
+#header-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #1b1b1b; 
+  border-bottom: 2px solid #e50914; 
+}
+
+#header-box a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+#header-box a:hover {
+  color: #e50914; 
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #1b1b1b;
+  border-top: 2px solid #e50914;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Main Articles / Section */
+#box-main-articles-news {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.box-main-article-news1,
+.box-main-article-news2 {
+  flex: 1 1 45%;
+  min-height: 200px;
+  background-color: #222; /* caja oscura */
+  border: 1px solid #e50914;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-main-article-news1:hover,
+.box-main-article-news2:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px #e50914aa;
+}
+
+/* Buttons | Links */
+button, .btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #ff1b2d;
+  box-shadow: 0 0 10px #e50914aa;
+}
+
+/* Logo */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #e50914aa);
 }
 
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
