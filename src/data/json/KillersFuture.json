@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Vitorio Toscano",
+    "title": "The Huntress",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -13,7 +13,7 @@
   },
     {
     "id": 2,
-    "title": "Sable Ward",
+    "title": "The Nurse",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -25,7 +25,7 @@
   },
    {
     "id": 3,
-    "title": "Meg THomas",
+    "title": "The Demorgorgon",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -37,7 +37,7 @@
   },
     {
     "id": 4,
-    "title": "Kate Denson",
+    "title": "The Wraith",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -49,7 +49,7 @@
   },
    {
     "id": 5,
-    "title": "Felix Richter",
+    "title": "The Blight",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -61,7 +61,7 @@
   },
     {
     "id": 6,
-    "title": "Mikaela Reid",
+    "title": "The Plague",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -73,8 +73,8 @@
   },
    {
     "id": 7,
-    "title": "Lara Croft",
-    "description": "",
+    "title": "The Dredge",
+   "description": "",
     "image": "#",
     "image-perk1":"",
     "name-perk1":"",
@@ -85,7 +85,7 @@
   },
    {
     "id": 8,
-    "title": "Ada wong",
+    "title": "The Unknown",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -97,7 +97,7 @@
   },
     {
     "id": 9,
-    "title": "Leon S. Kennedy",
+    "title": "The Oni",
     "description": "",
     "image": "#",
     "image-perk1":"",
@@ -109,8 +109,8 @@
   },
     {
     "id": 10,
-    "title": "Eleven",
-   "description": "",
+    "title": "The Hillbilly",
+    "description": "",
     "image": "#",
     "image-perk1":"",
     "name-perk1":"",

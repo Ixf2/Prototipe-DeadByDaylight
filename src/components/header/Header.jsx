@@ -1,22 +1,21 @@
 import { Link } from "react-router-dom";
-import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
-    <header className="main-header">
-
-      <div className="logo">
-        <img src="/logo.png" alt="Logo" />
+    <div id="header-box">
+      <div className="header-box-home">
+        <Link to="/">Home</Link>
       </div>
 
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
+      <div className="header-box-killers">
+        <Link to="/killers">Killers</Link>
+      </div>
 
-    </header>
+      <div className="header-box-survivors">
+        <Link to="/">Survivors</Link>
+      </div>
+    </div>
   );
-}
+};
 
 export default Header;
