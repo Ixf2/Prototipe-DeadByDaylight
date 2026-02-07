@@ -16,7 +16,10 @@ i18n
                     Article1_title: "Nuevo DLC Disponible",
                     Article1_desc: "COLECCIÓN STRANGER THINGS CAPÍTULO 2",
                     Article2_title: "Nuevos Complementos",
-                    Article2_desc: "NUEVAS SKINS DE COMPLEMENTOS"
+                    Article2_desc: "NUEVAS SKINS DE COMPLEMENTOS",
+                    nav_home: "Inicio",
+                    nav_killers: "Asesinos",
+                    nav_survivors: "Supervivientes",
                 }
             },
             en: {
@@ -26,7 +29,10 @@ i18n
                     Article1_title: "New DLC Available",
                     Article1_desc: "STRANGER THINGS CHAPTER 2 COLLECTION",
                     Article2_title: "New Complements",
-                    Article2_desc: "NEW COMPLEMENTS SKINS"
+                    Article2_desc: "NEW COMPLEMENTS SKINS",
+                    nav_home: "Home",
+                    nav_killers: "Killers",
+                    nav_survivors: "Survivors",
                 }
             }
         }

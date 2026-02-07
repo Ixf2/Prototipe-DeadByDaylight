@@ -17,10 +17,9 @@ function Footer() {
 
 
         <p className="legal-text">
-          © 2026 Prototipe Dead by Dayligth. Todos los derechos reservados.{" "}
-          <Link to="/legal">Política de Privacidad y Cookies</Link> |{" "}
-          <Link to="/terms">Condiciones de Venta</Link>
-        </p>
+          © 2026 Prototipe Dead by Daylight. All rights reserved.{" "}</p>
+          <p><Link to="/legal">Privacy and Cookies Policy</Link> |{" "}
+          <Link to="/terms">Terms and Conditions of Sale</Link></p>
 
         {/* Icons Social */}
         <div className="social-icons">
