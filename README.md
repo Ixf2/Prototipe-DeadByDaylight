@@ -119,7 +119,7 @@ npm run dev
 http://localhost:5173
 ```
 
-###🌐 Multilanguage Support
+### 🌐 Multilanguage Support
 
 This project uses i18next for translations.
 *Example*
@@ -136,7 +136,7 @@ const changeLanguage = (lng) => {
 <button onClick={() => changeLanguage('en')}>🇺🇸 EN</button>
 ```
 
-###🖼️ References and Resources
+### 🖼️ References and Resources
 - Official Dead by Daylight Website
 
 https://deadbydaylight.com/game/collections/
@@ -159,8 +159,6 @@ https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD
 - Vite
 
 - CSS3
-
-### 📄 License
 
 ---
 
