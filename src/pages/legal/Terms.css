@@ -1,0 +1,36 @@
+.terms-container {
+  min-height: 85vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  background-color: #121212;
+  background-image: url(https://deadbydaylight.com/static/39a9aaa16f0ba1ddc4115b148999e35e/691d2/Horizontal_1080x1920_aa8e1256c9.png);
+  padding: 60px 20px;
+}
+
+.terms-content {
+  width: 100%;
+  max-width: 900px; 
+  background-color: #1a1a1a;
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+ 
+  border-top: 4px solid #e63946; 
+}
+
+.terms-content h1 {
+  font-family: 'Arial Black', sans-serif;
+  color: #e63946;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.terms-content p, .terms-content h3 {
+  text-align: left; 
+  line-height: 1.8;
+  margin-bottom: 20px;
+}

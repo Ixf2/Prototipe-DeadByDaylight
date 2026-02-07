@@ -1,24 +1,25 @@
 import "./Footer.css";
 import { FaYoutube, FaFacebookF, FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
 import Form from "../form/Form.jsx";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="main-footer">
       <div className="footer-image-container">
-          <img
-            src="https://preview.redd.it/rynojxep1gk31.png?width=1080&crop=smart&auto=webp&s=431a7002bf210d9f4b3b47c70d16d5e4f0f60795"
-            alt="logo"
-            className="footer-logo-img"
-          />
-        </div>
+        <img
+          src="https://preview.redd.it/rynojxep1gk31.png?width=1080&crop=smart&auto=webp&s=431a7002bf210d9f4b3b47c70d16d5e4f0f60795"
+          alt="logo"
+          className="footer-logo-img"
+        />
+      </div>
       <div className="footer-left-group">
-        
+
 
         <p className="legal-text">
           © 2026 Prototipe Dead by Dayligth. Todos los derechos reservados.{" "}
-          <a href="/privacy">Política de Privacidad y Cookies</a> |{" "}
-          <a href="/terms">Condiciones de Venta</a>
+          <Link to="/legal">Política de Privacidad y Cookies</Link> |{" "}
+          <Link to="/terms">Condiciones de Venta</Link>
         </p>
 
         {/* Icons Social */}

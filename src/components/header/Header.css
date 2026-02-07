@@ -22,3 +22,14 @@
 #header-box a:hover {
   color: #e50914;
 }
+
+.header-logo {
+  height: 80px;     
+  width: auto;       
+  object-fit: contain; 
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05); /* Crece un poquito al pasar el ratón */
+}
