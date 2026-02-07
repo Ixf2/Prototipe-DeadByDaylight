@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       <div className="header-box-survivors">
-        <Link to="/">Survivors</Link>
+        <Link to="/survivors">Survivors</Link>
       </div>
     </div>
   );
