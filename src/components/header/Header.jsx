@@ -4,6 +4,9 @@ import "./Header.css"
 const Header = () => {
   return (
     <div id="header-box">
+      <div className="header-icon-logo">
+          
+      </div>
       <div className="header-box-home">
         <Link to="/">Home</Link>
       </div>

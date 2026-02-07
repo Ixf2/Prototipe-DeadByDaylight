@@ -16,7 +16,7 @@
 
 .content-information-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   justify-items: center;
 }
@@ -40,7 +40,7 @@
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -59,4 +59,22 @@
   font-size: 1rem;
   line-height: 1.4;
   color: #ccc;
+}
+
+@media (max-width: 1024px) {
+  .content-information-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) { 
+  .content-information-cards {
+    grid-template-columns: 1fr !important; 
+    gap: 30px;
+  }
+
+  .information-card {
+    max-width: 320px; 
+    margin: 0 auto;
+  }
 }

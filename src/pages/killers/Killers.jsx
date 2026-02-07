@@ -1,23 +1,32 @@
-import React from 'react'
-import Card from '../../components/card/Card';
-import Killers from "./Killers.css"
-export const Killers = () => {
-  return (
-    <section id="cards">
-      <h2 className="title-cards">Killers DBD</h2>
+import Card from "../../components/card/Card";
+import killers from "../../data/json/Killers.json";
+import "./Killers.css";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
-      <div className="content-information-cards">
-        {killers.map((killer) => (
-          <Card
-            key={killer.id}
-            title={killer.title}
-            image={killer.image}
-            description={killer.description}
-          />
-        ))}
-      </div>
-    </section>
-  )
-}
+const Killers = () => {
+  return (
+    <>
+      <Header />
+      <section id="cards">
+        <h2 className="title-cards">Killers DBD</h2>
+
+        <div className="content-information-cards">
+          {killers.map((killer) => (
+            <Card
+              key={killer.id}
+              title={killer.title}
+              image={new URL(`../../data/images/characters-killers/${killer.image}`, import.meta.url).href}
+              description={killer.description}
+
+            />
+          ))}
+        </div>
+      </section>
+      <Footer />
+
+    </>
+  );
+};
 
 export default Killers;

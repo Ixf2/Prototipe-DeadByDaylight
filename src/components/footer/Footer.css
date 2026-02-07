@@ -81,6 +81,9 @@
     justify-content: center;
     transform: translateY(0); 
     width: 100%;
+    .footer-info-container{
+      order: 1;
+    }
   }
 }
 

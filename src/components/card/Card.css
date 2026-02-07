@@ -1,11 +1,16 @@
-const Card = ({ title, image, description }) => {
-  return (
-    <div className="card">
-      <img src={image} alt={title} />
-      <div className="card-content">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-};
+.card-image {
+  width: 100%;
+  height: 300px;   
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.information-card {
+  background-color: #1a1a1a;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.information-card:hover {
+  transform: scale(1.05); 
+}
