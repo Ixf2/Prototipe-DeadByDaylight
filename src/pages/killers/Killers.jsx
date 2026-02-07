@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../../components/card/Card';
+import Killers from "./Killers.css"
 export const Killers = () => {
   return (
     <section id="cards">
