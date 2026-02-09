@@ -40,11 +40,11 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 ---
 
 ## 📂 Project Structure
-├── public
-├── src
-│   ├── components
-│   │   ├── card
-│   │   ├── footer
+├── public <br>
+├── src <br>
+│   ├── components <br>
+│   │   ├── card <br>
+│   │   ├── footer <br> 
 │   │   ├── form
 │   │   ├── header
 │   │   └── navbar
