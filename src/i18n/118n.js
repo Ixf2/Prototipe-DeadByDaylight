@@ -20,6 +20,9 @@ i18n
                     nav_home: "Inicio",
                     nav_killers: "Asesinos",
                     nav_survivors: "Supervivientes",
+                    footer_text: " © 2026 Prototipo Dead by Daylight. Todos los derechos reservados.",
+                    footer_legal: "POLÍTICA DE PRIVACIDAD Y COOKIES",
+                    footer_terms: "TÉRMINOS Y CONDICIONES DE VENTA"
                 }
             },
             en: {
@@ -33,6 +36,9 @@ i18n
                     nav_home: "Home",
                     nav_killers: "Killers",
                     nav_survivors: "Survivors",
+                    footer_text: " © 2026 Prototipe Dead by Daylight. All rights reserved.",
+                    footer_legal: "PRIVACY AND COOKIES POLICY",
+                    footer_terms: "TERMS AND CONDITIONS OF SALE"
                 }
             }
         }

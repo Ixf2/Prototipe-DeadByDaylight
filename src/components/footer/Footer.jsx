@@ -2,8 +2,11 @@ import "./Footer.css";
 import { FaYoutube, FaFacebookF, FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
 import Form from "../form/Form.jsx";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="main-footer">
       <div className="footer-image-container">
@@ -16,10 +19,9 @@ function Footer() {
       <div className="footer-left-group">
 
 
-        <p className="legal-text">
-          © 2026 Prototipe Dead by Daylight. All rights reserved.{" "}</p>
-          <p><Link to="/legal">Privacy and Cookies Policy</Link> |{" "}
-          <Link to="/terms">Terms and Conditions of Sale</Link></p>
+        <p className="legal-text">{t('footer_text')}</p>
+          <p><Link to="/legal">{t('footer_legal')} </Link> | 
+          <Link to="/terms"> {t('footer_terms')}</Link></p>
 
         {/* Icons Social */}
         <div className="social-icons">

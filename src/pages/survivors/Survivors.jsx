@@ -9,6 +9,10 @@ export const Survivors = () => {
     return (
         <>
             <Header />
+            {/* <div className="language-buttons" style={{ textAlign: 'center', marginBottom: '20px' }}>
+                <button onClick={() => changeLanguage('es')}>🇪🇸 ES</button>
+                <button onClick={() => changeLanguage('en')}>🇺🇸 EN</button>
+            </div> */}
             <section id="cards">
                 <h2 className="title-cards">Survivors DBD</h2>
 
