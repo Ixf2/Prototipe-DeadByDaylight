@@ -45,23 +45,23 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 │   ├── components <br>
 │   │   ├── card <br>
 │   │   ├── footer <br> 
-│   │   ├── form
-│   │   ├── header
-│   │   └── navbar
-│   ├── data
-│   │   ├── design_web
-│   │   ├── images
-│   │   │   ├── characters-killers
-│   │   │   └── charactert-survivors
-│   │   └── json
-│   ├── i18n
-│   └── pages
-│       ├── Home
-│       ├── killers
-│       ├── legal
-│       └── survivors
-├── node_modules
-└── package.json
+│   │   ├── form <br>
+│   │   ├── header <br>
+│   │   └── navbar <br>
+│   ├── data <br>
+│   │   ├── design_web <br>
+│   │   ├── images <br>
+│   │   │   ├── characters-killers <br>
+│   │   │   └── charactert-survivors <br>
+│   │   └── json <br>
+│   ├── i18n <br>
+│   └── pages <br>
+│       ├── Home <br>
+│       ├── killers <br>
+│       ├── legal <br>
+│       └── survivors <br>
+├── node_modules <br>
+└── package.json <br>
 
 ---
 ### Folder Description
