@@ -6,6 +6,7 @@ import Killers from "./pages/killers/Killers.jsx";
 import Survivors from "./pages/survivors/Survivors.jsx";
 import Legal from "./pages/legal/Legal.jsx";
 import Terms from "./pages/legal/Terms.jsx";
+import Maps from "./pages/maps/Mapss.jsx";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/survivors" element={<Survivors />} />
         <Route path="/legal" element={<Legal />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/maps" element={<Mapss />} />
       </Routes>
     </>
   );
