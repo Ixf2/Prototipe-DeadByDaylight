@@ -2,6 +2,7 @@ Referencia de página:
 - https://deadbydaylight.com/game/collections/
 - https://deadbydaylight.com/game/characters/
 - https://deadbydaylight.com/game/characters/vittorio-toscano/
+- https://deadbydaylight.com/game/maps/
 
 Figma Diseño: https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD?node-id=0-1&t=WvV5lo7eAy2Oywyj-1
 

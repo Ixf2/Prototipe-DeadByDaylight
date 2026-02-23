@@ -13,7 +13,7 @@ function Form() {
         <label form="email-form">Email</label>
         <input type="email" id="email-form" required />
 
-        <input type="submit" value="Send" />
+        <input type="submit" value="Enter" />
         <input type="reset" value="Reset" />
       </div>
     </form>
