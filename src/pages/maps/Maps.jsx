@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchAllMaps, fetchMapsByCategory } from "../../services/MapsAPI";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import "./Maps.css";
 
 export default function Maps() {
   const [category, setCategory] = useState("all");
@@ -22,32 +23,42 @@ export default function Maps() {
 
   return (
     <>
-      <Header/>
-      <div>
-        <select value={category} onChange={(e) => setCategory(e.target.value)}>
-          <option value="DLC">DLC</option>
-          <option value="NOT DLC">NOT DLC</option>
-          <option value="all">ALL</option>
-        </select>
+      <Header />
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "20px" }}>
+      <section id="cards">
+        <h2 className="title-cards">Maps</h2>
+
+        <div className="toolbar">
+          <label className="toolbar-label" htmlFor="category">
+            Category
+          </label>
+
+          <select
+            id="category"
+            className="select"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+          >
+            <option value="DLC">DLC</option>
+            <option value="NOT DLC">NOT DLC</option>
+            <option value="all">ALL</option>
+          </select>
+        </div>
+
+        <div className="content-information-cards">
           {maps.map((map) => (
-            <div key={map.id}>
-              <img
-                src={map.imageURL}
-                alt={map.title}
-                style={{ width: "100%", borderRadius: "8px" }}
-              />
-              <h3>{map.title}</h3>
-              <p>{map.description}</p>
-            </div>
+            <article className="card" key={map.id}>
+              <img src={map.imageURL} alt={map.title} loading="lazy" />
+              <div className="card-content">
+                <h3>{map.title}</h3>
+                <p>{map.description}</p>
+              </div>
+            </article>
           ))}
         </div>
-      </div>
+      </section>
 
-      <Footer/>
-
+      <Footer />
     </>
   );
 }
-
