@@ -3,6 +3,7 @@ import React from 'react';
 import "./Header.css"
 import { useTranslation } from 'react-i18next';
 
+
 const Header = () => {
   const { t } = useTranslation();
   return (
@@ -21,7 +22,13 @@ const Header = () => {
       <div className="header-box-survivors">
         <Link to="/survivors">{t('nav_survivors')}</Link>
       </div>
+
+      <div className="header-mapss">
+        <Link to="/mapss">Map</Link>
+      </div>
+
     </div>
+
   );
 };
 

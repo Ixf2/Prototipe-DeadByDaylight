@@ -1,5 +1,5 @@
-import { collection, getDocs, query, where } from "Firebase/Firestore";
-import { db } from "./Firebaseirebase";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "./Firebase";
 
 export async function fetchMapsByCategory(category) {
   const q = query(

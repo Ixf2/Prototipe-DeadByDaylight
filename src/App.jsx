@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
-import Home from "./pages/home/Home";
+import Home from "./pages/home/Home.jsx";
 import Killers from "./pages/killers/Killers.jsx";
 import Survivors from "./pages/survivors/Survivors.jsx";
 import Legal from "./pages/legal/Legal.jsx";
 import Terms from "./pages/legal/Terms.jsx";
-import Maps from "./pages/maps/Mapss.jsx";
+import Maps from "./pages/maps/Maps.jsx";
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path="/survivors" element={<Survivors />} />
         <Route path="/legal" element={<Legal />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/maps" element={<Mapss />} />
+        <Route path="/maps" element={<Maps />} />
       </Routes>
     </>
   );
