@@ -6,3 +6,37 @@ Referencia de página:
 
 Figma Diseño: https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD?node-id=0-1&t=WvV5lo7eAy2Oywyj-1
 
+CSS
+- https://lenguajecss.com/css/colores/funcion-lch/
+
+Documentación React:
+- https://react.dev/
+- https://react.dev/reference/react/useState
+- https://react.dev/reference/react/useEffect
+
+React Router:
+- https://reactrouter.com/en/main
+- https://reactrouter.com/api/hooks/useLocation
+- https://www.w3schools.com/react/react_router.asp
+
+Wouter:
+- https://github.com/molefrog/wouter
+
+i18next:
+- https://www.i18next.com
+- https://react.i18next.com
+
+CSS - Colores OKLCH / LCH:
+- https://lenguajecss.com/css/colores/funcion-lch/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch
+
+CSS - Animaciones
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
+
+CSS - backdrop filter
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter
+
+CSS - Flexbox
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts
+

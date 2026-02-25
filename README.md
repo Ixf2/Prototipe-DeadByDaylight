@@ -31,11 +31,22 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
   Switch between English and Spanish using `react-i18next`.
 
 - **Reusable Components**
-  - Header & Footer
+  - Header
+  - Footer
   - Card component for character information
+  - Loading Screen
+
+- **Dynamic State Management**
+  - useState
+  - useEffect
+  - Conditional rendering
+  - Filter
 
 - **Responsive Design**  
-  Uses modular CSS and flexible layouts to ensure compatibility across devices.
+  - Flexbox layouts
+  - Sticky cinematic header
+  - Mobile navigation menu
+- **
 
 ---
 
@@ -47,7 +58,8 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 │   │   ├── footer <br> 
 │   │   ├── form <br>
 │   │   ├── header <br>
-│   │   └── navbar <br>
+│   │   ├── navbar <br>
+│   │   └── loading <br>
 │   ├── data <br>
 │   │   ├── design_web <br>
 │   │   ├── images <br>
@@ -59,6 +71,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 │       ├── Home <br>
 │       ├── killers <br>
 │       ├── legal <br>
+│       ├── maps <br>
 │       └── survivors <br>
 ├── node_modules <br>
 └── package.json <br>
@@ -124,9 +137,46 @@ https://deadbydaylight.com/game/characters/
 
 https://deadbydaylight.com/game/characters/vittorio-toscano/
 
+https://deadbydaylight.com/game/maps/
+
 - Figma Design Prototype
 
 https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD
+
+### Documentation Used
+- **REACT**
+  - https://react.dev/
+  - https://react.dev/reference/react/useState
+  - https://react.dev/reference/react/useEffect
+
+- **REACT Router**
+  - https://reactrouter.com/en/main
+  - https://reactrouter.com/api/hooks/useLocation
+  - https://www.w3schools.com/react/react_router.asp
+
+- **WOUTER  (Routing Alternative Reference)**
+  - https://github.com/molefrog/wouter
+
+- **i18next**
+  - https://www.i18next.com
+  - https://react.i18next.com
+
+### CSS References
+- **OKLCH / LHC Colours**
+  - https://lenguajecss.com/css/colores/funcion-lch/
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch
+
+- **Animation**
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
+
+- **Backdrop Filter**
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter
+
+- **Flexbox**
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts
+
+
 
 ### 💻 Technologies
 - React 18+
@@ -138,6 +188,8 @@ https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD
 - Vite
 
 - CSS3
+
+- OKLCH Colours System
 
 ---
 
