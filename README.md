@@ -20,7 +20,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 ![Map Screenshot](screenshots/maps.png)
 
 ### LoadingScreen
-![LoadingScreen Screenshot](screenshots/loadinscreen.png.png)
+![LoadingScreen Screenshot](screenshots/loadinscreen.png)
 
 
 ## 📌 Features
