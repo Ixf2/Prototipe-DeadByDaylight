@@ -31,7 +31,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 - **Killers Section**  
   Showcases killers with cards containing name, image, and description.
 
-- **Survivors Section** *(Coming Soon)*  
+- **Survivors Section**  
   Will follow the same structure as the Killers section.
 
 - **Multilanguage Support**  
@@ -137,13 +137,13 @@ const changeLanguage = (lng) => {
 ### 🖼️ References and Resources
 - **Official Dead by Daylight Website**
 
-https://deadbydaylight.com/game/collections/
+  - https://deadbydaylight.com/game/collections/
 
-https://deadbydaylight.com/game/characters/
+  - https://deadbydaylight.com/game/characters/
 
-https://deadbydaylight.com/game/characters/vittorio-toscano/
+  - https://deadbydaylight.com/game/characters/vittorio-toscano/
 
-https://deadbydaylight.com/game/maps/
+  - https://deadbydaylight.com/game/maps/
 
 - **Figma Design Prototype**
 
