@@ -34,7 +34,6 @@ export const Survivors = () => {
       <section id="cards">
         <h2 className="title-cards">Survivors DBD</h2>
 
-        {/* Buscador */}
         <div style={{ margin: "12px 0" }}>
           <input
             type="text"
@@ -45,7 +44,6 @@ export const Survivors = () => {
           />
         </div>
 
-        {/* Cards */}
         <div className="content-information-cards">
           {filteredSurvivors.map((survivor) => (
             <Card
@@ -62,7 +60,6 @@ export const Survivors = () => {
           ))}
         </div>
 
-        {/* Mensaje sin resultados */}
         {filteredSurvivors.length === 0 && (
           <p style={{ marginTop: 12 }}>
             There are no survivors with that perk.
