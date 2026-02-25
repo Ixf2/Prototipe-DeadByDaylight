@@ -53,7 +53,6 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
   - Flexbox layouts
   - Sticky cinematic header
   - Mobile navigation menu
-- **
 
 ---
 
