@@ -24,7 +24,7 @@ const Header = () => {
       </div>
 
       <div className="header-mapss">
-        <Link to="/mapss">Map</Link>
+        <Link to="/maps">Map</Link>
       </div>
 
     </div>

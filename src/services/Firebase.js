@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDCE4a2bo_KNY_opyFBy4thBpR8eckUV04",
+  authDomain: "proyect-deadbydayligth.firebaseapp.com",
+  projectId: "proyect-deadbydayligth",
+  storageBucket: "proyect-deadbydayligth.firebasestorage.app",
+  messagingSenderId: "835268103515",
+  appId: "1:835268103515:web:8b9d4e70360ac00afc5e7e"
 };
 
 const app = initializeApp(firebaseConfig);
