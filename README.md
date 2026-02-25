@@ -20,7 +20,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 ![Map Screenshot](screenshots/maps.png)
 
 ### LoadingScreen
-![LoadingScreen Screenshot](screenshots/loadinscreen.png.png)
+![LoadingScreen Screenshot](screenshots/loadinscreen.png)
 
 
 ## 📌 Features
@@ -136,7 +136,7 @@ const changeLanguage = (lng) => {
 ```
 
 ### 🖼️ References and Resources
-- Official Dead by Daylight Website
+- **Official Dead by Daylight Website**
 
 https://deadbydaylight.com/game/collections/
 
@@ -146,7 +146,7 @@ https://deadbydaylight.com/game/characters/vittorio-toscano/
 
 https://deadbydaylight.com/game/maps/
 
-- Figma Design Prototype
+- **Figma Design Prototype**
 
 https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD
 
