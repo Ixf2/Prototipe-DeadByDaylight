@@ -98,7 +98,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Ixf2/Prototipe-DeadByDaylight/blob/main/README.md
+git clone https://github.com/Ixf2/Prototipe-DeadByDaylight
 cd project-name
 ```
 
