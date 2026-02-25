@@ -3,6 +3,7 @@ import { fetchAllMaps, fetchMapsByCategory } from "../../services/MapsAPI";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./Maps.css";
+import LoadingScreen from "../../components/loadingscreen/LoadingScreen";
 
 export default function Maps() {
   const [category, setCategory] = useState("all");
@@ -24,7 +25,7 @@ export default function Maps() {
   return (
     <>
       <Header />
-
+      <LoadingScreen/>
       <section id="cards">
         <h2 className="title-cards">Maps</h2>
 

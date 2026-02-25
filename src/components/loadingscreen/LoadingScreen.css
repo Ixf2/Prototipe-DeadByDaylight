@@ -1,0 +1,150 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    oklch(0.04 0.005 240) 0%,
+    oklch(0.08 0.01 22) 100%
+  );
+  overflow: hidden;
+}
+
+/* Fog */
+.fog-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.fog-1 {
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 80%,
+    oklch(0.15 0.02 240 / 0.3) 0%,
+    transparent 70%
+  );
+  animation: fogDrift 8s ease-in-out infinite;
+}
+
+.fog-2 {
+  background: radial-gradient(
+    ellipse 60% 40% at 30% 60%,
+    oklch(0.20 0.05 22 / 0.15) 0%,
+    transparent 60%
+  );
+  animation: fogDrift 10s ease-in-out infinite 3s;
+}
+
+/* Grid */
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.05;
+  background-image:
+    linear-gradient(oklch(0.88 0.02 80 / 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(0.88 0.02 80 / 0.3) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Content */
+.loading-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 400px;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 130px;
+  filter: drop-shadow(0 0 30px oklch(0.45 0.22 22 / 0.6));
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.loading-text {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: oklch(0.45 0.22 22);
+  text-shadow: 0 0 20px oklch(0.45 0.22 22 / 0.5);
+  transition: opacity 0.5s;
+}
+.loading-screen {
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+.loading-screen.closing {
+  opacity: 0;
+  pointer-events: none;
+}
+.text.faded {
+  opacity: 0.5;
+}
+
+.progress-container {
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: oklch(0.15 0.01 240);
+  border: 1px solid oklch(0.25 0.01 240);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    oklch(0.45 0.22 22),
+    oklch(0.55 0.25 22)
+  );
+  box-shadow: 0 0 15px oklch(0.45 0.22 22 / 0.6);
+  transition: width 0.3s ease;
+}
+
+.percentage {
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  font-family: "Oswald", sans-serif;
+  color: oklch(0.55 0.15 45);
+}
+
+/* Dots */
+.dots {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: oklch(0.45 0.22 22);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+@keyframes fogDrift {
+  0% { transform: translateX(-5%) translateY(0); opacity: 0.3; }
+  50% { transform: translateX(5%) translateY(-10px); opacity: 0.5; }
+  100% { transform: translateX(-5%) translateY(0); opacity: 0.3; }
+}

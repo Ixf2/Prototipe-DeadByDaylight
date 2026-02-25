@@ -5,11 +5,11 @@
     "description": "Game Base",
     "image": "the-huntres.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Beast of Prey",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Territorial Imperative",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Unnerving Presence"
   },
   {
     "id": 2,
@@ -17,11 +17,11 @@
     "description": "Game Base",
     "image": "the-nurse.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Stridor",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Thanatophobia",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "A Nurse's Calling"
   },
   {
     "id": 3,
@@ -29,11 +29,11 @@
     "description": "Killer DLC",
     "image": "demogorgon.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Surge",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Mindbreaker",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Cruel Limits"
   },
   {
     "id": 4,
@@ -41,11 +41,11 @@
     "description": "Game Base",
     "image": "the-wraith.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Predator",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Bloodhound",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Shadowborn"
   },
   {
     "id": 5,
@@ -53,11 +53,11 @@
     "description": "Game Base",
     "image": "the-blight.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Dragon's Grip",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Hex: Blood Favor",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Hex: Undying"
   },
   {
     "id": 6,
@@ -65,11 +65,11 @@
     "description": "Game Base",
     "image": "the-plague.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Corrupt Intervention",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Infectious Fright",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Dark Devotion"
   },
   {
     "id": 7,
@@ -77,11 +77,11 @@
     "description": "Game Base",
     "image": "the-dredge.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Dissolution",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Darkness Revealed",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Septic Touch"
   },
   {
     "id": 8,
@@ -89,11 +89,11 @@
     "description": "Game Base",
     "image": "the-unknown.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Unbound",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Undone",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Unforeseen"
   },
   {
     "id": 9,
@@ -101,11 +101,11 @@
     "description": "Game Base",
     "image": "the-oni.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Zanshin Tactics",
     "image-perk2": "",
-    "name-perk2": "",
+    "name-perk2": "Blood Echo",
     "image-perk3": "",
-    "name-perk3": ""
+    "name-perk3": "Nemesis"
   },
   {
     "id": 10,
@@ -113,7 +113,7 @@
     "description": "Game Base",
     "image": "the-hillbilly.webp",
     "image-perk1": "",
-    "name-perk1": "",
+    "name-perk1": "Agitation",
     "image-perk2": "",
     "name-perk2": "",
     "image-perk3": "",

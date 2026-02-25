@@ -7,7 +7,7 @@ import Survivors from "./pages/survivors/Survivors.jsx";
 import Legal from "./pages/legal/Legal.jsx";
 import Terms from "./pages/legal/Terms.jsx";
 import Maps from "./pages/maps/Maps.jsx";
-
+import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
 
 function App() {
   return (

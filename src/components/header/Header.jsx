@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div id="header-box">
       <div className="logo-container">
-          <img src="https://cdn2.steamgriddb.com/logo/94391e36d8a88f11d871e8dca5f642f7.png" alt="logo" className="header-logo"/>
+          <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663381268345/JbbwZCziuPOsHkFc.png" alt="logo" className="header-logo"/>
       </div>
       <div className="header-box-home">
         <Link to="/">{t('nav_home')}</Link>

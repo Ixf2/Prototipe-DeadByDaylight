@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/header/Header.jsx';
 import Footer from '../../components/footer/Footer.jsx';
 import './Home.css';
+import LoadingScreen from '../../components/loadingscreen/LoadingScreen.jsx';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <LoadingScreen/>
       <main>
         <h1>{t('welcome')}</h1> 
         
