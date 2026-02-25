@@ -16,6 +16,13 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 ### Survivors Page
 ![Survivors Screenshot](screenshots/survivors.png)
 
+### Map
+![Map Screenshot](screenshots/maps.png)
+
+### LoadingScreen
+![LoadingScreen Screenshot](screenshots/loadinscreen.png.png)
+
+
 ## 📌 Features
 
 - **Home Page**  
