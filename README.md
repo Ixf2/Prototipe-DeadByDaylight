@@ -2,6 +2,31 @@
 
 A **React** web application showcasing the world of *Dead by Daylight*, displaying **characters, killers, survivors**, and **game-related news**. The website supports **multilanguage** (EN/ES) and follows a **Figma design prototype**.
 
+### Known Issue - ESLint Dependency Conflict
+This proyect may present a dependency conclit between "eslint" and "eslint-plugin-react-hooks". If you are using ESLint v10, installation may fail with an ERESOLVE error because "eslint-plugin-react-hooks" currently supports up to ESLint v9.
+  - **Recommended Solucion**
+  ```bash
+      rm -rf node_modules packege-lock.json
+  ```
+
+   - **Then update packege.json**
+  ```bash
+  "devDependencies": {
+  "eslint": "^9.39.3"
+  }
+  ```
+
+  - **Reinstall dependencies**
+    ```bash
+    npmc install
+    ```
+
+  - **ALTERNATIVE (NOT RECOMMENDED)**
+  Force installation ignoring peer dependency conflicts
+  ```bash
+  npm install --legacy-peer-deps
+  ```
+
 ---
 🔗 **Repository:**  
 https://github.com/Ixf2/Prototipe-DeadByDaylight
