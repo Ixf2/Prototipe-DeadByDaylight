@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Vitorio Toscano",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "vitorio-toscano.webp",
     "image-perk1":"",
     "name-perk1":"Fogwise",
@@ -14,7 +14,7 @@
     {
     "id": 2,
     "title": "Sable Ward",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "sable-ward.webp",
     "image-perk1":"",
     "name-perk1":"Invocation: Weaving Spiders",
@@ -26,7 +26,7 @@
    {
     "id": 3,
     "title": "Meg THomas",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "meg-thomas.webp",
     "image-perk1":"",
     "name-perk1":"Quick & Quiet",
@@ -38,7 +38,7 @@
     {
     "id": 4,
     "title": "Kate Denson",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "kate-denson.webp",
     "image-perk1":"",
     "name-perk1":"Windows of Opportunity",
@@ -50,7 +50,7 @@
    {
     "id": 5,
     "title": "Felix Richter",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "felix-richter.webp",
     "image-perk1":"",
     "name-perk1":"Visionary",
@@ -62,7 +62,7 @@
     {
     "id": 6,
     "title": "Mikaela Reid",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "mikaela-reid.webp",
     "image-perk1":"",
     "name-perk1":"Clairvoyance",
@@ -74,7 +74,7 @@
    {
     "id": 7,
     "title": "Lara Croft",
-    "description": "Survivor DLC",
+    "description": "DLC",
     "image": "lara-croft.webp",
     "image-perk1":"",
     "name-perk1":"Finesse",
@@ -86,7 +86,7 @@
    {
     "id": 8,
     "title": "Ada wong",
-    "description": "Survivor DLC",
+    "description": "DLC",
     "image": "ada-wong.webp",
     "image-perk1":"",
     "name-perk1":"Wiretap",
@@ -98,7 +98,7 @@
     {
     "id": 9,
     "title": "Leon S. Kennedy",
-    "description": "Survivor DLC",
+    "description": "DLC",
     "image": "leon-s-kennedy.webp",
     "image-perk1":"",
     "name-perk1":"Bite the Bullet",
@@ -110,7 +110,7 @@
     {
     "id": 10,
     "title": "Eleven",
-   "description": "Survivor DLC",
+   "description": "DLC",
     "image": "eleven.webp",
     "image-perk1":"",
     "name-perk1":"Inner Healing",

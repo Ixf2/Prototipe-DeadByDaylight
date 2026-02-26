@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "The Huntress",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-huntres.webp",
     "image-perk1": "",
     "name-perk1": "Beast of Prey",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "title": "The Nurse",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-nurse.webp",
     "image-perk1": "",
     "name-perk1": "Stridor",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "The Demogorgon",
-    "description": "Killer DLC",
+    "description": "DLC",
     "image": "demogorgon.webp",
     "image-perk1": "",
     "name-perk1": "Surge",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "title": "The Wraith",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-wraith.webp",
     "image-perk1": "",
     "name-perk1": "Predator",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "title": "The Blight",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-blight.webp",
     "image-perk1": "",
     "name-perk1": "Dragon's Grip",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "title": "The Plague",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-plague.webp",
     "image-perk1": "",
     "name-perk1": "Corrupt Intervention",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "title": "The Dredge",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-dredge.webp",
     "image-perk1": "",
     "name-perk1": "Dissolution",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "title": "The Unknown",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-unknown.webp",
     "image-perk1": "",
     "name-perk1": "Unbound",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "title": "The Oni",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-oni.webp",
     "image-perk1": "",
     "name-perk1": "Zanshin Tactics",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "title": "The Hillbilly",
-    "description": "Game Base",
+    "description": "Base Game",
     "image": "the-hillbilly.webp",
     "image-perk1": "",
     "name-perk1": "Agitation",

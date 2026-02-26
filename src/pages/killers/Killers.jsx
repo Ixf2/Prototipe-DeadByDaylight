@@ -35,7 +35,6 @@ const Killers = () => {
       <section id="cards">
         <h2 className="title-cards">Killers DBD</h2>
 
-        {/* Buscador */}
         <div style={{ margin: "12px 0" }}>
           <input
             type="text"
@@ -46,7 +45,6 @@ const Killers = () => {
           />
         </div>
 
-        {/* Resultado */}
         <div className="content-information-cards">
           {filteredKillers.map((killer) => (
             <Card
@@ -63,7 +61,6 @@ const Killers = () => {
           ))}
         </div>
 
-        {/* Mensaje si no hay coincidencias */}
         {filteredKillers.length === 0 && (
           <p style={{ marginTop: 12 }}>There are no killers with that perk.</p>
         )}
