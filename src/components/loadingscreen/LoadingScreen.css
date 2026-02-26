@@ -57,7 +57,7 @@
 
 .logo {
   height: auto;
-  width: 800px;
+  width: 300px;
   filter: drop-shadow(0 0 30px oklch(0.45 0.22 22 / 0.6));
   animation: pulse 2s ease-in-out infinite;
 }
