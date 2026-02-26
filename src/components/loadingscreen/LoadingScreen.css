@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 
-/* Fog */
+
 .fog-layer {
   position: absolute;
   inset: 0;
@@ -37,7 +37,6 @@
   animation: fogDrift 10s ease-in-out infinite 3s;
 }
 
-/* Grid */
 .grid-overlay {
   position: absolute;
   inset: 0;
@@ -48,7 +47,6 @@
   background-size: 60px 60px;
 }
 
-/* Content */
 .loading-content {
   position: relative;
   z-index: 10;
@@ -121,7 +119,6 @@
   color: oklch(0.55 0.15 45);
 }
 
-/* Dots */
 .dots {
   margin-top: 30px;
   display: flex;
@@ -137,7 +134,6 @@
   animation: pulse 1.5s ease-in-out infinite;
 }
 
-/* Animations */
 @keyframes pulse {
   0%, 100% { opacity: 0.3; transform: scale(1); }
   50% { opacity: 1; transform: scale(1.1); }
