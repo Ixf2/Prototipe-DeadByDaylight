@@ -137,7 +137,7 @@ const changeLanguage = (lng) => {
 
 ---
 
-### Known Issue - ESLint Dependency Conflict
+### ⚠️ Known Issue - ESLint Dependency Conflict
 This proyect may present a dependency conclit between "eslint" and "eslint-plugin-react-hooks". If you are using ESLint v10, installation may fail with an ERESOLVE error because "eslint-plugin-react-hooks" currently supports up to ESLint v9.
   - **Recommended Solucion**
   ```bash
