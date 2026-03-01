@@ -22,6 +22,10 @@ export default function Maps() {
     loadData();
   }, [category]);
 
+
+
+
+  
   return (
     <>
       <Header />
