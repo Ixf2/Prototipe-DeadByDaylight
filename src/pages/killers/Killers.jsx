@@ -13,6 +13,7 @@ const Killers = () => {
     const q = search.trim().toLowerCase();
 
  
+    
     if (!q) return killers;
 
     return killers.filter((killer) => {
