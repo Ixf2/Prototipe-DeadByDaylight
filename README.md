@@ -1,6 +1,6 @@
 # Dead by Daylight Web App
 
-A **React** web application showcasing the world of *Dead by Daylight*, displaying **characters, killers, survivors**, and **game-related news**. The website supports **multilanguage** (EN/ES) and follows a **Figma design prototype**.
+A **React** web application showcasing the world of *Dead by Daylight*, displaying **characters, killers, survivors**, and **game-related news**. The website supports **multi-language** (EN/ES) and follows a **Figma design prototype**.
 
 ---
 🔗 **Repository:**  
@@ -100,7 +100,7 @@ https://github.com/Ixf2/Prototipe-DeadByDaylight
 
 ```bash
 git clone https://github.com/Ixf2/Prototipe-DeadByDaylight
-cd project-name
+cd Prototipe-DeadByDaylight/
 ```
 
 ### 2️⃣ Clone the repository
@@ -113,7 +113,7 @@ npm install
 npm run dev
 ```
 
-### 4️⃣ Open in browser
+### 4️⃣ Open the application in your browser
 ```bash
 http://localhost:5173
 ```
@@ -138,8 +138,8 @@ const changeLanguage = (lng) => {
 ---
 
 ### ⚠️ Known Issue - ESLint Dependency Conflict
-This proyect may present a dependency conclit between "eslint" and "eslint-plugin-react-hooks". If you are using ESLint v10, installation may fail with an ERESOLVE error because "eslint-plugin-react-hooks" currently supports up to ESLint v9.
-  - **Recommended Solucion**
+This project may present a dependency conclit between "eslint" and "eslint-plugin-react-hooks". If you are using ESLint v10, installation may fail with an ERESOLVE error because "eslint-plugin-react-hooks" currently supports up to ESLint v9.
+  - **Recommended Solution**
   ```bash
       rm -rf node_modules packege-lock.json
   ```
