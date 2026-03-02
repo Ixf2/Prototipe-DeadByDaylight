@@ -40,6 +40,8 @@ const Home = () => {
             </div>
           </div>
 
+
+
           {/* Article 2 */}
           <div className='box-main-article-news2'>
             <h2>{t('Article2_title')}</h2> 
