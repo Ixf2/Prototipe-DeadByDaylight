@@ -153,7 +153,7 @@ This project may present a dependency conclit between "eslint" and "eslint-plugi
 
   - **Reinstall dependencies**
     ```bash
-    npmc install
+    npm install
     ```
 
   - **ALTERNATIVE (NOT RECOMMENDED)**
