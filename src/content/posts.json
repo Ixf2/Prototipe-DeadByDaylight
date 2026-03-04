@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Post 1",
+    "slug": "post-1",
+    "description": "Descripción del post 1",
+    "date": "2026-03-01",
+    "author": "Joana"
+  },
+  {
+    "title": "Post 2",
+    "slug": "post-2",
+    "description": "Descripción del post 2",
+    "date": "2026-02-15",
+    "author": "Joana 2"
+  }
+]

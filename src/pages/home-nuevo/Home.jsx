@@ -3,14 +3,23 @@ import Header from '../../components/header/Header.jsx';
 import Footer from '../../components/footer/Footer.jsx';
 import './Home.css';
 import LoadingScreen from '../../components/loadingscreen/LoadingScreen.jsx';
+import { getNews } from '../../services/NewsArticles.js';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import HomeNews from '../../components/home-new/HomeNew.jsx';
 
 const Home = () => {
+
+  
   const { t, i18n } = useTranslation();
+
+
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
+
+
 
   return (
     <>
@@ -57,6 +66,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+       <HomeNews/>
+
+
+
       </main>
       <Footer />
     </>
