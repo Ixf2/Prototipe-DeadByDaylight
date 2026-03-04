@@ -36,6 +36,7 @@ function Footer() {
           <a href="/home">Home</a>
           <a href="/killers">Killers</a>
           <a href="/survivors">Survivors</a>
+          <a href="/maps">Maps</a>
           <a href="https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD?node-id=0-1&t=IEWhcC6uLxAtsbjO-1" target="_blank" rel="noopener noreferrer">Design PageWeb</a>
         </div>
       </div>
