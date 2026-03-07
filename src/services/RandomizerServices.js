@@ -18,12 +18,13 @@ export async function getKillers() {
 }
 
 export async function getKillerPerks() {
-  const snapshot = await getDocs(collection(db, "killers_perk"));
+  const snapshot = await getDocs(collection(db, "killer_perks"));
   return snapshot.docs.map((docSnap) => ({
     id: docSnap.id,
     ...docSnap.data(),
-  }));
+  })); 
 }
+
 
 export async function getBuilds() {
   const snapshot = await getDocs(collection(db, "builds"));

@@ -183,116 +183,145 @@ export default function RandomizerPage() {
       <Header />
       <div className="randomizer-page">
         <div className="randomizer-container">
-          <h1 className="randomizer-title">DBD Killer Randomizer</h1>
-
-          <div className="randomizer-actions">
+          <header className="randomizer-hero">
+            <h1 className="randomizer-title">DBD Killer Randomizer</h1>
             <button className="randomizer-button" onClick={generateRandomBuild}>
               Generate random
             </button>
-          </div>
+          </header>
 
-          <div className="randomizer-form-card">
-            <h2 className="section-title">
-              {editingId ? "Edit build" : "New build"}
-            </h2>
+          <section className="current-build-section">
+            <div className="current-build-card">
+              <div className="current-build-left">
+                <h2 className="section-title">Current build</h2>
 
-            <div className="form-group">
-              <label className="form-label">Title</label>
-              <input
-                className="form-input"
-                type="text"
-                value={form.title}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, title: e.target.value }))
-                }
-              />
-            </div>
+                <div className="form-group">
+                  <label className="form-label">Title</label>
+                  <input
+                    className="form-input"
+                    type="text"
+                    value={form.title}
+                    onChange={(e) =>
+                      setForm((prev) => ({ ...prev, title: e.target.value }))
+                    }
+                  />
+                </div>
 
-            <div className="form-group">
-              <label className="form-label">Description</label>
-              <textarea
-                className="form-textarea"
-                value={form.description}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, description: e.target.value }))
-                }
-              />
-            </div>
+                <div className="form-group">
+                  <label className="form-label">Description</label>
+                  <textarea
+                    className="form-textarea"
+                    value={form.description}
+                    onChange={(e) =>
+                      setForm((prev) => ({ ...prev, description: e.target.value }))
+                    }
+                  />
+                </div>
 
-            <div className="form-group">
-              <label className="form-label">Killer</label>
-              <select
-                className="form-select"
-                value={form.killerId}
-                onChange={handleKillerChange}
-              >
-                <option value="">Select a killer</option>
-                {killers.map((killer) => (
-                  <option key={killer.id} value={killer.nameId}>
-                    {killer.name}
-                  </option>
-                ))}
-              </select>
-            </div>
+                <div className="form-group">
+                  <label className="form-label">Killer</label>
+                  <select
+                    className="form-select"
+                    value={form.killerId}
+                    onChange={handleKillerChange}
+                  >
+                    <option value="">Select a killer</option>
+                    {killers.map((killer) => (
+                      <option key={killer.id} value={killer.nameId}>
+                        {killer.name}
+                      </option>
+                    ))}
+                  </select>
+                </div>
 
-            {form.killerId && killersMap[form.killerId]?.imageURL && (
-              <div className="selected-killer-preview">
-                <img
-                  className="selected-killer-image"
-                  src={killersMap[form.killerId].imageURL}
-                  alt={killersMap[form.killerId].name}
-                />
-              </div>
-            )}
+                <div className="form-buttons">
+                  <button className="randomizer-button" onClick={handleSaveBuild}>
+                    {editingId ? "Update build" : "Save build"}
+                  </button>
 
-            <div className="form-group">
-              <label className="form-label">
-                Selected perks ({form.perkIds.length}/4)
-              </label>
-
-              <div className="perks-grid">
-                {killerPerks.map((perk) => {
-                  const selected = form.perkIds.includes(perk.nameId);
-
-                  return (
+                  {editingId && (
                     <button
-                      key={perk.id}
                       type="button"
-                      onClick={() => togglePerk(perk)}
-                      className={`perk-card ${selected ? "perk-card-selected" : ""}`}
+                      className="randomizer-button secondary-button"
+                      onClick={handleCancelEdit}
                     >
-                      {perk.imageURL && (
-                        <img
-                          className="perk-card-image"
-                          src={perk.imageURL}
-                          alt={perk.name}
-                        />
-                      )}
-                      <div className="perk-card-name">{perk.name}</div>
+                      Cancel
                     </button>
-                  );
-                })}
+                  )}
+                </div>
+              </div>
+
+              <div className="current-build-right">
+                {form.killerId && killersMap[form.killerId] && (
+                  <div className="killer-preview-card">
+                    <img
+                      className="killer-preview-image"
+                      src={killersMap[form.killerId].imageURL}
+                      alt={killersMap[form.killerId].name}
+                    />
+                    <h3 className="killer-preview-name">
+                      {killersMap[form.killerId].name}
+                    </h3>
+                  </div>
+                )}
+
+                <div className="selected-perks-box">
+                  <h3 className="selected-perks-title">
+                    Selected perks ({form.perkIds.length}/4)
+                  </h3>
+
+                  <div className="selected-perks-grid">
+                    {form.perkIds.map((perkId) => {
+                      const perk = perksMap[perkId];
+                      if (!perk) return null;
+
+                      return (
+                        <div key={perkId} className="selected-perk-card">
+                          {perk.imageURL && (
+                            <img
+                              className="selected-perk-image"
+                              src={perk.imageURL}
+                              alt={perk.name}
+                            />
+                          )}
+                          <div className="selected-perk-name">{perk.name}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
               </div>
             </div>
+          </section>
 
-            <div className="form-buttons">
-              <button className="randomizer-button" onClick={handleSaveBuild}>
-                {editingId ? "Update build" : "Save build"}
-              </button>
+          <section className="perk-selector-section">
+            <h2 className="section-title">Choose your perks</h2>
+            <div className="perks-grid">
+              {killerPerks.map((perk) => {
+                const selected = form.perkIds.includes(perk.nameId);
 
-              {editingId && (
-                <button
-                  type="button"
-                  className="randomizer-button secondary-button"
-                  onClick={handleCancelEdit}
-                >
-                  Cancel
-                </button>
-              )}
+                return (
+                  <button
+                    key={perk.id}
+                    type="button"
+                    onClick={() => togglePerk(perk)}
+                    className={`perk-card ${selected ? "perk-card-selected" : ""}`}
+                  >
+                    {perk.imageURL && (
+                      <img
+                        className="perk-card-image"
+                        src={perk.imageURL}
+                        alt={perk.name}
+                      />
+                    )}
+                    <div className="perk-card-name">{perk.name}</div>
+                  </button>
+                );
+              })}
             </div>
-          </div>
+          </section>
 
-          <div className="saved-builds-section">
+          <section className="saved-builds-section">
             <h2 className="section-title">Saved builds</h2>
 
             {builds.length === 0 ? (
@@ -301,11 +330,15 @@ export default function RandomizerPage() {
               <div className="builds-list">
                 {builds.map((build) => (
                   <div key={build.id} className="build-card">
-                    <h3 className="build-card-title">{build.title}</h3>
-                    <p className="build-card-description">{build.description}</p>
-                    <p className="build-card-killer">
-                      <strong>Killer:</strong> {build.killerName}
-                    </p>
+                    <div className="build-card-top">
+                      <div>
+                        <h3 className="build-card-title">{build.title}</h3>
+                        <p className="build-card-description">{build.description}</p>
+                        <p className="build-card-killer">
+                          <strong>Killer:</strong> {build.killerName}
+                        </p>
+                      </div>
+                    </div>
 
                     <div className="build-perks-row">
                       {build.perkIds?.map((perkId) => {
@@ -345,7 +378,7 @@ export default function RandomizerPage() {
                 ))}
               </div>
             )}
-          </div>
+          </section>
         </div>
       </div>
       <Footer />
