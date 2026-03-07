@@ -8,6 +8,7 @@ import Legal from "./pages/legal/Legal.jsx";
 import Terms from "./pages/legal/Terms.jsx";
 import Maps from "./pages/maps/Maps.jsx";
 import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
+import RandomizerPage from "./pages/randomizerpage/RandomizerPage.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/legal" element={<Legal />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/maps" element={<Maps />} />
+        <Route path="/random" element={<RandomizerPage />} />
       </Routes>
     </>
   );

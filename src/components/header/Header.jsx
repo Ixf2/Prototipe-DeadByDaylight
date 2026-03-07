@@ -27,6 +27,10 @@ const Header = () => {
         <Link to="/maps">Map</Link>
       </div>
 
+      <div className="header-randomizer">
+        <Link to="/radomizer">Radomizer</Link>
+      </div>
+
     </div>
 
   );
