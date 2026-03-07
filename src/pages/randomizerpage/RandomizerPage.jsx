@@ -182,7 +182,7 @@ export default function RandomizerPage() {
 
   return (
     <>
-      {/* <LoadingScreen/> */}
+      <LoadingScreen/>
       <Header />
       <div className="randomizer-page">
         <div className="randomizer-container">

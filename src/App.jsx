@@ -9,6 +9,7 @@ import Terms from "./pages/legal/Terms.jsx";
 import Maps from "./pages/maps/Maps.jsx";
 import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
 import RandomizerPage from "./pages/randomizerpage/RandomizerPage.jsx";
+import NotFound from "./pages/notfound/NotFound.jsx";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<NotFound />} /> 
         <Route path="/home" element={<Home />} />
         <Route path="/killers" element={<Killers />} />
         <Route path="/survivors" element={<Survivors />} />

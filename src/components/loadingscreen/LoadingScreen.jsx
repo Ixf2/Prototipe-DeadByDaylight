@@ -19,7 +19,6 @@ export default function LoadingScreen({ onFinish }) {
   const [textIndex, setTextIndex] = useState(0);
   const [closing, setClosing] = useState(false);
 
-  // Progress
   useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prev) => {
@@ -40,7 +39,6 @@ export default function LoadingScreen({ onFinish }) {
     return () => clearInterval(interval);
   }, []);
 
-  // Cuando llega a 100 → fade y cerrar
   useEffect(() => {
     if (progress === 100) {
       setClosing(true);

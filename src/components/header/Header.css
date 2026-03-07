@@ -44,3 +44,127 @@
     align-items: center;
     justify-content: center;
 }
+
+#header-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  background-color: #111111;
+  border-bottom: 3px solid #e50914;
+  flex-wrap: wrap;
+  padding: 10px 16px;
+  gap: 10px;
+}
+
+#header-box > div {
+  padding: 10px 20px;
+}
+
+#header-box a {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#header-box a:hover {
+  color: #ff0000 !important;
+  transform: scale(1.1);
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.header-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
+
+.header-box-home,
+.header-box-killers,
+.header-box-survivors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 1024px) {
+
+  #header-box {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+
+  #header-box a {
+    font-size: 1.2rem;
+  }
+
+  .header-logo {
+    height: 85px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  #header-box {
+    flex-wrap: wrap;
+    gap: 10px 15px;
+  }
+
+  #header-box a {
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+  }
+
+  .header-logo {
+    height: 75px;
+  }
+
+}
+
+
+@media (max-width: 640px) {
+
+  #header-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #header-box a {
+    font-size: 1rem;
+  }
+
+  .header-logo {
+    height: 65px;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+
+  #header-box a {
+    font-size: 0.9rem;
+  }
+
+  .header-logo {
+    height: 55px;
+  }
+
+}

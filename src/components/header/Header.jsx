@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import React from 'react';
 import "./Header.css"
 import { useTranslation } from 'react-i18next';
-
+import DbdLogo from "../../data/images/logo.png"
 
 const Header = () => {
   const { t } = useTranslation();
   return (
     <div id="header-box">
       <div className="logo-container">
-          <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663381268345/JbbwZCziuPOsHkFc.png" alt="logo" className="header-logo"/>
+          <img src={DbdLogo} alt="logo" className="header-logo"/>
       </div>
       <div className="header-box-home">
         <Link to="/">{t('nav_home')}</Link>
@@ -28,7 +28,7 @@ const Header = () => {
       </div>
 
       <div className="header-randomizer">
-        <Link to="/random">Radomizer</Link>
+        <Link to="/random">Randomizer</Link>
       </div>
 
     </div>
