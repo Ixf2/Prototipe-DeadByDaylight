@@ -109,14 +109,14 @@
   },
     {
     "id": 10,
-    "title": "Eleven",
+    "title": "Nancy Wheeler",
    "description": "DLC",
-    "image": "eleven.webp",
+    "image": "nancy.webp",
     "image-perk1":"",
-    "name-perk1":"Inner Healing",
+    "name-perk1":"Better Together",
     "image-perk2":"",
-    "name-perk2":"Renewal",
+    "name-perk2":"Fixated",
     "image-perk3":"",
-    "name-perk3":"Guardian"
+    "name-perk3":"Inner Strength"
   }
 ]
