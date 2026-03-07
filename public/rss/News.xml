@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+
+    <title>Dead by Daylight News</title>
+    <link>https://proyect-deadbydayligth.web.app</link>
+    <description>Latest news from the project</description>
+    <language>en</language>
+
+
+    <item>
+      <title>All-Kill: Comeback Features The Trickster’s Delusion Map</title>
+      <description>
+        All-Kill introduces the neon-drenched Trickster’s Delusion map.
+      </description>
+      <link>
+        https://proyect-deadbydayligth.web.app/news/RJoT7UKZfcoDOOvrdbfb
+      </link>
+      <guid isPermaLink="true">
+        https://proyect-deadbydayligth.web.app/news/RJoT7UKZfcoDOOvrdbfb
+      </guid>
+      <pubDate>Fri, 07 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Springtrap's Perks and Builds: Dead by Daylight Killer Tips</title>
+      <description>
+Springtrap, Dead by Daylight’s new Killer, enters The Fog with 3 unique Perks designed to help you spread terror throughout any Trial. Explore how to use each one to your advantage, craft builds, and apply pressure.      </description>
+      <link>
+        https://proyect-deadbydayligth.web.app/news/ZMnPpqkJ3XHRyWxsUazL
+      </link>
+      <guid isPermaLink="true">
+        https://proyect-deadbydayligth.web.app/news/ZMnPpqkJ3XHRyWxsUazL
+      </guid>
+      <pubDate>Fri, 07 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
+
+
+  </channel>
+</rss>

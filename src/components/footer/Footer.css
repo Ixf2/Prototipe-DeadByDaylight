@@ -182,7 +182,15 @@
     display: flex;
     align-items: center;
   }
+.footer-rss {
+  color: #e50914;
+  font-weight: bold;
+  text-decoration: none;
+}
 
+.footer-rss:hover {
+  text-decoration: underline;
+}
   .footer-right-form form {
     width: 100%;
     max-width: 320px;

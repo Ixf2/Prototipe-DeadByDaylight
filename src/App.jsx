@@ -10,7 +10,7 @@ import Maps from "./pages/maps/Maps.jsx";
 import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
 import RandomizerPage from "./pages/randomizerpage/RandomizerPage.jsx";
 import NotFound from "./pages/notfound/NotFound.jsx";
-import NewsDetailPage from "./pages/news-detail/NewsDetailPage.jsx";
+import NewsDetailPage from "./pages/news-details/NewsDetailsPage.jsx";
 
 function App() {
   return (

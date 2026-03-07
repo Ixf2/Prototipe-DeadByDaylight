@@ -30,6 +30,7 @@ function Footer() {
           <a href="https://twitter.com/deadbydaylight" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="https://www.twitch.tv/deadbydaylight?lang=es" target="_blank" rel="noopener noreferrer"><FaTwitch /></a>
           <a href="https://github.com/Ixf2" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="/rss/News.xml" target="_blank" rel="noopener noreferrer"> RSS Feed</a>
         </div>
 
         <div className="footer-links">
