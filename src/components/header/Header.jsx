@@ -28,7 +28,7 @@ const Header = () => {
       </div>
 
       <div className="header-randomizer">
-        <Link to="/radomizer">Radomizer</Link>
+        <Link to="/random">Radomizer</Link>
       </div>
 
     </div>

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import LoadingScreen from '../../components/loadingscreen/LoadingScreen.jsx';
+
 import {
   getKillers,
   getKillerPerks,
@@ -180,6 +182,7 @@ export default function RandomizerPage() {
 
   return (
     <>
+      {/* <LoadingScreen/> */}
       <Header />
       <div className="randomizer-page">
         <div className="randomizer-container">
