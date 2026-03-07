@@ -10,6 +10,7 @@ import Maps from "./pages/maps/Maps.jsx";
 import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
 import RandomizerPage from "./pages/randomizerpage/RandomizerPage.jsx";
 import NotFound from "./pages/notfound/NotFound.jsx";
+import NewsDetailPage from "./pages/news-detail/NewsDetailPage.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/maps" element={<Maps />} />
         <Route path="/random" element={<RandomizerPage />} />
+        <Route path="/news/:id" element={<NewsDetailPage />} />
       </Routes>
     </>
   );

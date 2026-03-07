@@ -26,3 +26,14 @@ dist-ssr
 node_modules/
 dist/
 .env
+# Node modules
+node_modules
+functions/node_modules
+
+# Firebase local files
+.firebase
+firebase-debug.log
+
+# Environment files
+.env
+.env.local
