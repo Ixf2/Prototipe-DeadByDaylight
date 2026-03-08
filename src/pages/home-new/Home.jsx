@@ -24,7 +24,7 @@ const Home = () => {
 	return (
 		<>
 			<Header />
-			{/* <LoadingScreen /> */}
+			<LoadingScreen />
 			<main>
 				<h1>{t('welcome')}</h1>
 

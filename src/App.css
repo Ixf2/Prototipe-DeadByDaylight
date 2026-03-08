@@ -1,4 +1,3 @@
-/* Container main */
 #root {
   width: 100%;
   min-height: 100vh;
@@ -11,7 +10,6 @@
 
 
 
-/* Header / Links */
 #header-box {
   display: flex;
   justify-content: space-around;
@@ -35,7 +33,6 @@
   color: #e50914; 
 }
 
-/* Footer */
 footer {
   margin-top: 3rem;
   padding: 1rem;
@@ -47,7 +44,6 @@ footer {
 
 
 
-/* Buttons | Links */
 button, .btn {
   background-color: #e50914;
   color: #fff;
@@ -64,7 +60,6 @@ button:hover, .btn:hover {
   box-shadow: 0 0 10px #e50914aa;
 }
 
-/* Logo */
 .logo {
   height: 6em;
   padding: 1.5em;
