@@ -195,7 +195,7 @@ const Modal = ({ isOpen, onClose }) => {
                           className="modal-news-image"
                         />
                       ) : (
-                        <div className="modal-no-image">Sin imagen</div>
+                        <div className="modal-no-image">No image</div>
                       )}
                     </div>
 
@@ -230,7 +230,7 @@ const Modal = ({ isOpen, onClose }) => {
               <input
                 type="text"
                 name="title"
-                placeholder="title"
+                placeholder="Title"
                 value={form.title}
                 onChange={handleChange}
               />
