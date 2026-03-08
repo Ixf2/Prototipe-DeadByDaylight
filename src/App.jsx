@@ -15,7 +15,6 @@ import NewsDetailPage from "./pages/news-details/NewsDetailsPage.jsx";
 function App() {
   return (
     <>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -28,7 +27,6 @@ function App() {
         <Route path="/news/:id" element={<NewsDetailPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </>
   );
 }

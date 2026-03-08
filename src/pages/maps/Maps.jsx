@@ -28,7 +28,6 @@ export default function Maps() {
   
   return (
     <>
-      <Header />
       <LoadingScreen/>
       <section id="cards">
         <h2 className="title-cards">Maps</h2>
@@ -63,7 +62,6 @@ export default function Maps() {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 }

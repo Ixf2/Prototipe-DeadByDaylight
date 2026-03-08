@@ -21,7 +21,6 @@ const Home = () => {
 
 	return (
 		<>
-			<Header />
 			<LoadingScreen />
 			<main>
 				<h1>{t('welcome')}</h1>
@@ -73,7 +72,6 @@ const Home = () => {
 
 
 			</main>
-			<Footer />
 		</>
 	);
 };
