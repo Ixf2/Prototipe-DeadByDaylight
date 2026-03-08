@@ -15,23 +15,13 @@ https://proyect-deadbydayligth.web.app
 ## 📌 Features
 
 - **Home Page**  
- The Home page acts as the main entry point of the application. It provides users with an overview of the Dead by Daylight universe and highlights recent content and updates related to the game.
+ On the Home page, we can find both the header and footer, but most importantly, the content, discussing the latest news from the organisation.
+ 
+ The main articles are translated by i18n. 
+ 
+ The articles below are more interesting as they are connected via JSON in Firebase, covering the most compelling news. They are categorised by an ID that we can search for if there is more news that interests us.
 
-At the top of the page, the Header component is displayed, which contains the main navigation menu that allows users to access different sections of the website such as Killers, Survivors, Maps, and other pages. Below the header, the page briefly shows a LoadingScreen component, which simulates a game-style loading experience inspired by Dead by Daylight. This loading screen displays the game logo, animated fog effects, and a progress bar to create a more immersive visual effect.
 
-The central section of the page contains the main content wrapped inside the <main> element. The first element shown is a welcome title, which is translated dynamically using the react-i18next library. This allows the page to display text in either Spanish or English depending on the selected language.
-
-Under the title, there are language selection buttons that allow users to switch between Spanish and English. These buttons trigger the changeLanguage function, which updates the language configuration through i18next and automatically updates all translated texts on the page.
-
-The Home page also contains a news toggle button that allows users to show or hide the news section. This functionality is controlled using React’s useState hook, which stores whether the news section should be visible or not.
-
-Below this control area, the page displays two highlighted featured articles related to Dead by Daylight content. Each article includes a title, an image, and a short description. The titles and descriptions are also translated using i18next to support both languages.
-
-Finally, the Home page includes the HomeNews component, which loads additional news dynamically from a Firebase Firestore database. These news items are retrieved using asynchronous functions and displayed in a grid layout. Each news card includes an image, category label, title, and description of the article.
-
-At the bottom of the page, the Footer component is displayed, providing additional links, social media icons, and access to the RSS feed of the project.
-
-Overall, the Home page combines static content, dynamic data from Firebase, and multilingual support to provide users with an informative and interactive introduction to the web application.
 
 - **Killers Section**  
   Showcases killers with cards containing name, image, and description.
