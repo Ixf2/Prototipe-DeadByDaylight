@@ -11,22 +11,6 @@ Project online:
 https://proyect-deadbydayligth.web.app
 
 ---
-## 📸 Screenshots
-### Home Page
-![Home Screenshot](screenshots/home.png)
-
-### Killers Page
-![Killers Screenshot](screenshots/killers.png)
-
-### Survivors Page
-![Survivors Screenshot](screenshots/survivors.png)
-
-### Map
-![Map Screenshot](screenshots/maps.png)
-
-### LoadingScreen
-![LoadingScreen Screenshot](screenshots/loadinscreen.png)
-
 
 ## 📌 Features
 
@@ -58,6 +42,75 @@ https://proyect-deadbydayligth.web.app
   - Flexbox layouts
   - Sticky cinematic header
   - Mobile navigation menu
+
+## 🔥 Firebase Hosting
+
+The application is deployed using **Firebase Hosting**.
+
+🌐 Live Website:  
+https://proyect-deadbydayligth.web.app
+
+Deployment process:
+
+```bash
+npm run build
+firebase deploy --only hosting
+```
+
+The production files are generated int the dist folder and then uploaded to Firebase Hosting.
+
+
+---
+
+# 2️⃣ Añadir RSS Feed
+
+Justo **debajo de Firebase Hosting**.
+
+```markdown
+## 📡 RSS Feed
+
+The project includes an **RSS feed** that provides the latest news from the application.
+
+🔗 RSS Feed:  
+https://proyect-deadbydayligth.web.app/rss/News.xml
+
+Each RSS item links directly to a news article within the website.
+
+Example RSS structure:
+
+```xml
+<item>
+<title>All-Kill: Comeback Features The Trickster’s Delusion Map</title>
+<link>https://proyect-deadbydayligth.web.app/news/RJoT7UKZfcoDOOvrdbfb</link>
+<guid>https://proyect-deadbydayligth.web.app/news/RJoT7UKZfcoDOOvrdbfb</guid>
+<pubDate>Fri, 07 Mar 2025 12:00:00 GMT</pubDate>
+</item>
+```
+The RSS feed is accessible from the website footer through an RSS icon.
+
+
+---
+
+## 📸 Screenshots
+### Home Page
+![Home Screenshot](screenshots/home.png)
+
+### Killers Page
+![Killers Screenshot](screenshots/killers.png)
+
+### Survivors Page
+![Survivors Screenshot](screenshots/survivors.png)
+
+### Map
+![Map Screenshot](screenshots/maps.png)
+
+### LoadingScreen
+![LoadingScreen Screenshot](screenshots/loadinscreen.png)
+
+### RSS Feed Reader Example
+
+![RSS Reader Screenshot](screenshots/rss-reader.png)
+
 
 ---
 
@@ -230,6 +283,9 @@ https://www.figma.com/design/x1uXyHXhOGhqXl0zr0RmNz/Design-Web-DBD
 
 - OKLCH Colours System
 
+- Firebase Hosting
+
+- Firebase Firestore
 
 ---
 
