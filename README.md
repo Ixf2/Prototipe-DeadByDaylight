@@ -6,7 +6,8 @@ A **React** web application showcasing the world of *Dead by Daylight*, displayi
 🔗 **Repository:**  
 https://github.com/Ixf2/Prototipe-DeadByDaylight
 
-*** Firebase Hosting
+*** Firebase Hosting ***
+
 Project online:
 https://proyect-deadbydayligth.web.app
 

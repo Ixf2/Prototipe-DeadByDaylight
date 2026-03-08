@@ -5,10 +5,12 @@ import LoadingScreen from '../../components/loadingscreen/LoadingScreen.jsx';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import HomeNews from '../../components/home-new/HomeNew.jsx';
+import Modal from '../../components/windows-modal/Modal.jsx';
 
 const Home = () => {
 
 	const [showNews, setShowNews] = useState(true);
+	const [isModalOpen, setIsModalOpen] = useState(false);
 	const { t, i18n } = useTranslation();
 
 
@@ -22,7 +24,7 @@ const Home = () => {
 	return (
 		<>
 			<Header />
-			<LoadingScreen />
+			{/* <LoadingScreen /> */}
 			<main>
 				<h1>{t('welcome')}</h1>
 
@@ -68,7 +70,24 @@ const Home = () => {
 					</div>
 				</div>
 
-				{showNews && <HomeNews />}
+
+				{showNews && (
+					<>
+						<div style={{ textAlign: 'center', margin: '20px 0' }}>
+							<button onClick={() => setIsModalOpen(true)}>
+								Abrir modal
+							</button>
+						</div>
+
+						<HomeNews />
+					</>
+					
+				)}
+
+				<Modal
+					isOpen={isModalOpen}
+					onClose={() => setIsModalOpen(false)}
+				/>
 
 
 
