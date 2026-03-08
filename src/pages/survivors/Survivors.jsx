@@ -62,7 +62,7 @@ export const Survivors = () => {
 
         {filteredSurvivors.length === 0 && (
           <p style={{ marginTop: 12 }}>
-            There are no survivors with that perk.
+            There are not survivors with that perk.
           </p>
         )}
       </section>
