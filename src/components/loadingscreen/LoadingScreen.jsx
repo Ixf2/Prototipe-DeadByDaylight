@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import "./LoadingScreen.css";
+import DbdLogo from "../../data/images/logo.png"
 
-const DBD_LOGO =
-  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663381268345/JbbwZCziuPOsHkFc.png";
 
 const loadingTexts = [
   "The Entity is watching you...",
@@ -53,6 +52,7 @@ export default function LoadingScreen({ onFinish }) {
 
   return (
     <div className={`loading-screen ${closing ? "closing" : ""}`}>
+      <img src={DbdLogo} alt="Dead by Daylight Logo" className="loaging-logo "/>
       <div className="fog-layer fog-1" />
       <div className="fog-layer fog-2" />
       <div className="grid-overlay" />
