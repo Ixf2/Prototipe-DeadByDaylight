@@ -31,6 +31,7 @@ const Killers = () => {
 
   return (
     <>
+      <Header />
       <LoadingScreen/>
       <section id="cards">
         <h2 className="title-cards">Killers DBD</h2>
@@ -66,6 +67,7 @@ const Killers = () => {
         )}
       </section>
 
+      <Footer />
     </>
   );
 };

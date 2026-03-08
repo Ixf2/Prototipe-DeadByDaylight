@@ -5,6 +5,7 @@ import "./Terms.css"
 
 const Terms = () => (
   <>
+    <Header/>
     <main className="terms-container">
       <article className="terms-content">
         <h1>Terms and Conditions of Sale</h1>
@@ -15,6 +16,7 @@ const Terms = () => (
         </ul>
       </article>
     </main>
+    <Footer/>
   </>
 );
 export default Terms;

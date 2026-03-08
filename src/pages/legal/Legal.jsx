@@ -4,6 +4,7 @@ import "./Legal.css"
 
 const Legal = () => (
   <>
+    <Header/>
     <main className="legal-container">
       <article className="legal-content">
         <h1>Privacy and Cookies Policy</h1>
@@ -16,6 +17,7 @@ const Legal = () => (
         <p>By browsing this site, you accept our cookie policy in accordance with video game industry standards.</p>
       </article>
     </main>
+    <Footer/>
   </>
 );
 export default Legal;
