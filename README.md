@@ -123,14 +123,18 @@ The RSS feed is accessible from the website footer through an RSS icon.
 
 ## 📂 Project Structure
 ├── public <br>
+│   └── rss <br>
+├── screenshots <br>
 ├── src <br>
 │   ├── components <br>
 │   │   ├── card <br>
 │   │   ├── footer <br> 
 │   │   ├── form <br>
 │   │   ├── header <br>
+│   │   ├── home-new <br>
+│   │   ├── loadingscreen <br>
 │   │   ├── navbar <br>
-│   │   └── loading <br>
+│   │   └── windows-modal <br>
 │   ├── data <br>
 │   │   ├── design_web <br>
 │   │   ├── images <br>
@@ -138,12 +142,17 @@ The RSS feed is accessible from the website footer through an RSS icon.
 │   │   │   └── charactert-survivors <br>
 │   │   └── json <br>
 │   ├── i18n <br>
-│   └── pages <br>
-│       ├── Home <br>
-│       ├── killers <br>
-│       ├── legal <br>
-│       ├── maps <br>
-│       └── survivors <br>
+│   ├── pages <br>
+│   │   ├── home-new <br>
+│   │   ├── killers <br>
+│   │   ├── legal <br>
+│   │   ├── maps <br>
+│   │   ├── news-details <br>
+│   │   ├── notfound <br>
+│   │   ├── randomizerpage <br>
+│   │   ├── rss <br>
+│   │   └── survivors <br>
+│   └──  services <br>
 ├── node_modules <br>
 └── package.json <br>
 

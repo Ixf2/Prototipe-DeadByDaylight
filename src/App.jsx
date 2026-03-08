@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
-import Home from "./pages/home-nuevo/Home.jsx";
+import Home from "./pages/home-new/Home.jsx";
 import Killers from "./pages/killers/Killers.jsx";
 import Survivors from "./pages/survivors/Survivors.jsx";
 import Legal from "./pages/legal/Legal.jsx";
