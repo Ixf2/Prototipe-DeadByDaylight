@@ -11,6 +11,8 @@ import LoadingScreen from "./components/loadingscreen/LoadingScreen.jsx";
 import RandomizerPage from "./pages/randomizerpage/RandomizerPage.jsx";
 import NotFound from "./pages/notfound/NotFound.jsx";
 import NewsDetailPage from "./pages/news-details/NewsDetailsPage.jsx";
+import RssPage from "./pages/rss/RssPage.jsx";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/maps" element={<Maps />} />
         <Route path="/random" element={<RandomizerPage />} />
         <Route path="/news/:id" element={<NewsDetailPage />} />
+        <Route path="/rss-page" element={<RssPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

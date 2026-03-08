@@ -75,7 +75,7 @@ const Home = () => {
 					<>
 						<div style={{ textAlign: 'center', margin: '20px 0' }}>
 							<button onClick={() => setIsModalOpen(true)}>
-								Abrir modal
+								Open window modal
 							</button>
 						</div>
 

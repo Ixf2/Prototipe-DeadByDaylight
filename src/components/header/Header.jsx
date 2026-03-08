@@ -53,6 +53,12 @@ const Header = () => {
         <div className="header-randomizer">
           <Link to="/random" onClick={closeMenu}>Randomizer</Link>
         </div>
+
+        <div className="header-rss-page">
+          <Link to="/rss-page" onClick={closeMenu}>Rss</Link>
+        </div>
+
+
       </nav>
     </header>
   );
