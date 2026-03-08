@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaYoutube, FaFacebookF, FaTwitter, FaTwitch, FaGithub } from "react-icons/fa";
+import { FaYoutube, FaFacebookF, FaTwitter, FaTwitch, FaGithub, FaRss } from "react-icons/fa";
 import Form from "../form/Form.jsx";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
@@ -23,14 +23,13 @@ function Footer() {
           <p><Link to="/legal">{t('footer_legal')} </Link> | 
           <Link to="/terms"> {t('footer_terms')}</Link></p>
 
-        {/* Icons Social */}
         <div className="social-icons">
           <a href="https://www.youtube.com/@DeadbyDaylightBHVR" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
           <a href="https://www.facebook.com/DeadByDaylight/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
           <a href="https://twitter.com/deadbydaylight" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="https://www.twitch.tv/deadbydaylight?lang=es" target="_blank" rel="noopener noreferrer"><FaTwitch /></a>
           <a href="https://github.com/Ixf2" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="/rss/News.xml" target="_blank" rel="noopener noreferrer"> RSS Feed</a>
+          <a href="/rss/News.xml" target="_blank" rel="noopener noreferrer"><FaRss /></a>
         </div>
 
         <div className="footer-links">

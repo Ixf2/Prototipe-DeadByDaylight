@@ -15,10 +15,9 @@ import NewsDetailPage from "./pages/news-details/NewsDetailsPage.jsx";
 function App() {
   return (
     <>
-      
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} /> 
         <Route path="/home" element={<Home />} />
         <Route path="/killers" element={<Killers />} />
         <Route path="/survivors" element={<Survivors />} />
@@ -27,7 +26,9 @@ function App() {
         <Route path="/maps" element={<Maps />} />
         <Route path="/random" element={<RandomizerPage />} />
         <Route path="/news/:id" element={<NewsDetailPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

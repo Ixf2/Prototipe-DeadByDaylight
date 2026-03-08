@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { db } from "../../Firebase";
+import { db } from "../../services/Firebase";
 import { doc, getDoc } from "firebase/firestore";
 
 export default function NewsDetailPage() {
