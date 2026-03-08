@@ -52,14 +52,13 @@ export default function LoadingScreen({ onFinish }) {
 
   return (
     <div className={`loading-screen ${closing ? "closing" : ""}`}>
-      <img src={DbdLogo} alt="Dead by Daylight Logo" className="loaging-logo "/>
       <div className="fog-layer fog-1" />
       <div className="fog-layer fog-2" />
       <div className="grid-overlay" />
 
       <div className="loading-content">
         <div className="logo-container">
-          <img src={DBD_LOGO} alt="Dead by Daylight" className="logo" />
+          <img src={DbdLogo} alt="Dead by Daylight" className="logo" />
         </div>
 
         <div className="loading-text">
