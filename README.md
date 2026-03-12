@@ -25,10 +25,10 @@ https://proyect-deadbydayligth.web.app
 
 
 - **Killers Section**  
-  Showcases killers with cards containing name, image, and description.
+  In the killers section, we can find cards with images of 10 killers. At the top, there is a search engine to find the images we are looking for.
 
 - **Survivors Section**  
-  Will follow the same structure as the Killers section.
+  WIn the survivors section, we can find cards with images of 10 killers. At the top, there is a search engine to find the images we are looking for.
 
 - **Multilanguage Support**  
   Switch between English and Spanish using `react-i18next`.
@@ -36,8 +36,12 @@ https://proyect-deadbydayligth.web.app
 - **Reusable Components**
   - Header
   - Footer
-  - Card component for character information
+  - Card killers
+  - Card Survivors
   - Loading Screen
+  - Randomizer Killers
+  - RSS
+
 
 - **Dynamic State Management**
   - useState
