@@ -41,21 +41,18 @@ const HomeNew = () => {
           ...doc.data()
         }));
 
-        // ordenar por fecha
         data.sort((a, b) => {
           const aTime = a.createdAt?.seconds || 0;
           const bTime = b.createdAt?.seconds || 0;
           return bTime - aTime;
         });
 
-        // filtrar por categoría
         if (selectedCat !== "all") {
           data = data.filter(
             (item) => item.categoryId === selectedCat
           );
         }
 
-        // limitar a 12
         data = data.slice(0, 12);
 
         setNews(data);
