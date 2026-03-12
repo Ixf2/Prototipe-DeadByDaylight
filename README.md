@@ -6,7 +6,7 @@ A **React** web application showcasing the world of *Dead by Daylight*, displayi
 🔗 **Repository:**  
 https://github.com/Ixf2/Prototipe-DeadByDaylight
 
-  ** Firebase Hosting **
+*** Firebase Hosting ***
 
 Project online:
 https://proyect-deadbydayligth.web.app
@@ -73,7 +73,6 @@ The production files are generated int the dist folder and then uploaded to Fire
 
 Justo **debajo de Firebase Hosting**.
 
-```markdown
 ## 📡 RSS Feed
 
 The project includes an **RSS feed** that provides the latest news from the application.
@@ -95,6 +94,22 @@ Example RSS structure:
 ```
 The RSS feed is accessible from the website footer through an RSS icon.
 
+The RSS feed can be accessed at:
+
+https://proyect-deadbydayligth.web.app/rss/News.xml
+
+To verify that the feed works correctly, it was tested using the RSS reader **Feedly**.
+
+Feedly reads the RSS file and displays each news item included in the feed.  
+Each item in the RSS points to the corresponding news page inside the application hosted on Firebase.
+
+By clicking on any news item in the reader, the user is redirected to the specific news page in the web application.
+
+### Example using Feedly
+
+Below is a screenshot showing the RSS feed opened in Feedly and displaying the news items from the application.
+
+![Feedly RSS Reader](./screenshots/feed-rss.png)
 
 ---
 
@@ -114,9 +129,16 @@ The RSS feed is accessible from the website footer through an RSS icon.
 ### LoadingScreen
 ![LoadingScreen Screenshot](screenshots/loadinscreen.png)
 
-### RSS Feed Reader Example
+### Randomizer
+![Randomizer Killers](screenshots/randomizer.png)
+![Randomizer Perks](screenshots/randomizer-perks.png)
+![Randomizer Builds](screenshots/randomizer-builds.png)
 
+### RSS Feed Reader Example
 ![RSS Reader Screenshot](screenshots/rss-reader.png)
+![XML](screenshots/rss-reader.png)
+
+
 
 
 ---
@@ -215,10 +237,10 @@ const changeLanguage = (lng) => {
 This project may present a dependency conclit between "eslint" and "eslint-plugin-react-hooks". If you are using ESLint v10, installation may fail with an ERESOLVE error because "eslint-plugin-react-hooks" currently supports up to ESLint v9.
   - **Recommended Solution**
   ```bash
-      rm -rf node_modules packege-lock.json
+      rm -rf node_modules package-lock.json
   ```
 
-   - **Then update packege.json**
+   - **Then update package.json**
   ```bash
   "devDependencies": {
   "eslint": "^9.39.3"
