@@ -74,13 +74,9 @@
 
 .modal-form-section h3,
 .modal-news-section h3 {
-   background: #1a1a1a;
-  border-radius: 14px;
-  padding: 20px;
-  box-sizing: border-box;
-  min-height: 0;
-  border: 1px solid #2a2a2a;
-  overflow-y: auto;
+  margin: 0 0 16px 0;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .modal-form {
@@ -88,6 +84,8 @@
   flex-direction: column;
   gap: 14px;
   min-height: 0;
+  overflow-y: auto;
+  padding-right: 6px;
 }
 
 .modal-form input,
