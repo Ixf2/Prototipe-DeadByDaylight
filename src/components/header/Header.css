@@ -65,7 +65,6 @@
   cursor: pointer;
 }
 
-/* TABLET */
 @media (max-width: 1024px) {
   #header-box {
     padding: 10px 18px;
@@ -85,7 +84,6 @@
   }
 }
 
-/* MÓVIL */
 @media (max-width: 768px) {
   #header-box {
     min-height: 85px;
